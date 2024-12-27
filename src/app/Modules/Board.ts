@@ -1,4 +1,4 @@
-import { Piece, type PieceI } from '@/app/Modules/Piece'
+import { type PieceI } from '@/app/Modules/Piece'
 import type { Player, PlayerI } from '@/app/Modules/Player'
 import { BoardSafeArea, type BoardSafeAreaI } from '@/app/Modules/BoardSafeArea'
 import { mapSafePlace } from '@/app/utils/utils'
