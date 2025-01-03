@@ -46,7 +46,7 @@ class Board implements BoardI {
     const startArea = this.getPlayerStartArea(nextCell.color)
     const emptyCellIndex = startArea.cells.findIndex((cell) => cell === null)
     nextCell.steps = 0
-    nextCell.position = 0
+    nextCell.position = emptyCellIndex
     startArea.cells[emptyCellIndex] = nextCell
     nextCell.state = 'inStart'
   }
