@@ -46,7 +46,7 @@ console.log(mensch.value.board)
         v-for="(cell, index) of mensch.board.cells"
         :key="index"
         :style="`background: ${mensch.board.startAreas[index / 10]?.color}; border: 3px solid ${
-          mensch.board.startAreas[index / 10] && 'grey'
+          mensch.board.startAreas[index / 10] && 'grey' + ''
         }`"
       >
         <div
